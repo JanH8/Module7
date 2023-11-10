@@ -16,6 +16,12 @@ library(readr)
 # 4. Which movies have the same critics?
 # 5. Which actors have worked with the same directors?
 
+# Comments after presentation (Disney+)
+# - Research question was formulated a little too broad - also it was formulated so that the answer is always "yes" (can we do xxx?)
+# - Suggestion 1: add more variables to the network analysis, for example genres or production firms etc. to see if there are more non-obvious relations 
+# - Suggestion 2: add the other streaming services like Netflix, Amazon Prime to the dataset, so that it becomes visible what movies are still available to grab for Disney+
+# - Suggestion 3: scale variables for better comparison
+
 # Idea 2
 # change this path to where you saved the data
 df.meta <- read_csv("Data/rotten_tomatoes_meta.csv")
